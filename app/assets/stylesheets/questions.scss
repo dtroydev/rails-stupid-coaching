@@ -1,0 +1,23 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.card {
+  margin-top: 1rem;
+  width: 18rem;
+  border-left: 0.5rem solid #DDDDDD;
+}
+
+.card.answer {
+  background-color: #FFFDE1;
+}
+
+.questionInput {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.questionSubmit {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

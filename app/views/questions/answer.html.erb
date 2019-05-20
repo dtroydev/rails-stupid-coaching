@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row flex-column">
+    <h1>Stupid Coaching</h1>
+    <div class="card question">
+      <div class="card-body">
+        <h5 class="card-title">Question</h5>
+        <h6 class="card-subtitle mb-2 text-muted">-You</h6>
+        <p class="card-text">
+          <%= @question %>
+        </p>
+      </div>
+    </div>
+    <div class="card answer">
+      <div class="card-body">
+        <h5 class="card-title">Answer</h5>
+        <h6 class="card-subtitle mb-2 text-muted">-Your coach</h6>
+        <p class="card-text">
+          <%= @answer %>
+        </p>
+      </div>
+    </div>
+    <%= link_to "Ask a new question", controller: "questions", action: "ask"%>
+  </div>
+</div>
